@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/hello', function () {
-    return view('helloworld');
-});
-Route::get('/home', 'HomeController@Index');
+Route::get('/', 'HomeController@Index');
+Route::get('/home', 'HomeController@home');
+
+Route::get('/cart', 'HomeController@Cart');
+
+Route::get('/categories', 'HomeController@categories');
+
+Route::get('/checkout', 'HomeController@checkout');
+
+Route::get('/contact', 'HomeController@contact');
+
+Route::get('/product', 'HomeController@product');
+
