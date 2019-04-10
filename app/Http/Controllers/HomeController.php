@@ -59,6 +59,20 @@ class HomeController extends Controller{
 		return view('pages.charts.morris');
 		
 	}
+	
+	public function inline(){
+		return view('pages.charts.inline');
+		
+	}
+	public function flot(){
+		return view('pages.charts.flot');
+		
+	}
+	
+	
+	
+	
+	
 
 }
 

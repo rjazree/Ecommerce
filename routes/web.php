@@ -31,3 +31,8 @@ Route::get('/charts', 'HomeController@chart');
 
 Route::get('/morris', 'HomeController@morris');
 
+Route::get('/inline', 'HomeController@inline');
+
+
+Route::get('/flot', 'HomeController@flot');
+
