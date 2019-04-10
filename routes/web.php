@@ -28,3 +28,6 @@ Route::get('/admin', 'HomeController@admin');
 
 Route::get('/charts', 'HomeController@chart');
 
+
+Route::get('/morris', 'HomeController@morris');
+

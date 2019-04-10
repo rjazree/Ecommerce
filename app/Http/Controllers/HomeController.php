@@ -55,6 +55,10 @@ class HomeController extends Controller{
 		
 	}
 
+	public function morris(){
+		return view('pages.charts.morris');
+		
+	}
 
 }
 
