@@ -73,6 +73,27 @@ class HomeController extends Controller{
 	
 	
 	
+	
+	
+	public function advance(){
+		return view('pages.forms.advanced');
+		
+	}
+	
+	
+	public function editor(){
+		return view('pages.forms.editors');
+		
+	}
+	
+	public function general(){
+		return view('pages.forms.general');
+		
+	}
+	
+	
+	
+	
 
 }
 
