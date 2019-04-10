@@ -24,3 +24,7 @@ Route::get('/contact', 'HomeController@contact');
 
 Route::get('/product', 'HomeController@product');
 
+Route::get('/admin', 'HomeController@admin');
+
+Route::get('/charts', 'HomeController@chart');
+

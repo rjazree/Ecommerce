@@ -8,42 +8,52 @@ use Illuminate\Support\Facades\DB;
 class HomeController extends Controller{
 
 	public function Index(){
-		return view('index');
+		return view('pages.index');
 		
 	}
 	
 	public function home(){
-		return view('home');
+		return view('pages.home');
 		
 	}
 	
 	
 	public function Cart(){
-		return view('cart');
+		return view('pages.cart');
 		
 	}
 	
 	public function categories(){
-		return view('categories');
+		return view('pages.categories');
 		
 	}
 	
 	public function checkout(){
-		return view('checkout');
+		return view('pages.checkout');
 		
 	}
 	
 	public function contact(){
-		return view('contact');
+		return view('pages.contact');
 		
 	}
 	
 	public function product(){
-		return view('product');
+		return view('pages.product');
 		
 	}
 		
 	
+	
+	public function admin(){
+		return view('pages.index.index');
+		
+	}
+	
+	public function chart(){
+		return view('pages.charts.chartjs');
+		
+	}
 
 
 }
