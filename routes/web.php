@@ -26,13 +26,13 @@ Route::get('/product', 'HomeController@product');
 
 Route::get('/admin', 'HomeController@admin');
 
-Route::get('/chartjs', 'HomeController@chartjs');
+Route::get('/charts/chartjs', 'HomeController@chartjs');
 
 
-Route::get('/morris', 'HomeController@morris');
+Route::get('/charts/morris', 'HomeController@morris');
 
-Route::get('/inline', 'HomeController@inline');
+Route::get('/charts/inline', 'HomeController@inline');
 
 
-Route::get('/flot', 'HomeController@flot');
+Route::get('/charts/flot', 'HomeController@flot');
 
