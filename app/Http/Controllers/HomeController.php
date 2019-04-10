@@ -50,7 +50,7 @@ class HomeController extends Controller{
 		
 	}
 	
-	public function chart(){
+	public function chartjs(){
 		return view('pages.charts.chartjs');
 		
 	}

@@ -26,7 +26,7 @@ Route::get('/product', 'HomeController@product');
 
 Route::get('/admin', 'HomeController@admin');
 
-Route::get('/charts', 'HomeController@chart');
+Route::get('/chartjs', 'HomeController@chartjs');
 
 
 Route::get('/morris', 'HomeController@morris');
