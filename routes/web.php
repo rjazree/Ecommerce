@@ -42,6 +42,10 @@ Route::get('/editors', 'HomeController@editor');
 Route::get('/general', 'HomeController@general');
 
 
+Route::get('/404', 'HomeController@four');
+Route::get('/500', 'HomeController@five');
+
+
 
 
 

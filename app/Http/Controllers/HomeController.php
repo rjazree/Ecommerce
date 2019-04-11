@@ -91,6 +91,14 @@ class HomeController extends Controller{
 		
 	}
 	
+	public function four(){
+		return view('pages.forms.examples.404');
+	}
+	
+	public function five(){
+		return view('pages.forms.examples.500');
+		
+	
 	
 	
 	
