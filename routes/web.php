@@ -25,16 +25,18 @@ Route::get('/contact', 'HomeController@contact');
 Route::get('/product', 'HomeController@product');
 
 Route::get('/admin', 'HomeController@admin');
+Route::get('/admin_dashboardv1', 'HomeController@admin');
+Route::get('/admin_dashboardv2', 'HomeController@admin2');
 
 
 
-Route::get('/chartjs', 'HomeController@chartjs');
+Route::get('/charts/chartjs', 'HomeController@chartjs');
 
-Route::get('/morris', 'HomeController@morris');
+Route::get('/charts/morris', 'HomeController@morris');
 
-Route::get('/inline', 'HomeController@inline');
+Route::get('/charts/inline', 'HomeController@inline');
 
-Route::get('/flot', 'HomeController@flot');
+Route::get('/charts/flot', 'HomeController@flot');
 
 
 Route::get('/advanced', 'HomeController@advance');
@@ -46,6 +48,7 @@ Route::get('/404', 'HomeController@four');
 Route::get('/500', 'HomeController@five');
 
 
+Route::get('/widgets', 'HomeController@widgets');
 
 
 

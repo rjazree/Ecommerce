@@ -49,6 +49,10 @@ class HomeController extends Controller{
 		return view('pages.index.index');
 		
 	}
+	public function admin2(){
+		return view('pages.index.index2');
+		
+	}
 	
 	public function chartjs(){
 		return view('pages.charts.chartjs');
@@ -98,9 +102,12 @@ class HomeController extends Controller{
 	public function five(){
 		return view('pages.forms.examples.500');
 		
+	}
 	
-	
-	
+	public function widgets(){
+		return view('pages.widgets');
+		
+	}
 	
 
 }
